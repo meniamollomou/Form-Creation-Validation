@@ -32,11 +32,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (isValid) {
             feedbackDiv.textcontent ="Registration Successful";
             feedbackDiv.style.color = '#28a745';
-            feedbackDiv.style.backgroundColor = '#28a745';
         } else {
             feedbackDiv.innerHTML =MessageChannel.join('<br>');
             feedbackDiv.style.color = '#dc3545';
-            feedbackDiv.style.backgroundColor = '#dc3545';
         }
     });
 });
