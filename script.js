@@ -30,10 +30,10 @@ document.addEventListener('DOMContentLoaded', function() {
         feedbackDiv.style.display = 'block';
 
         if (isValid) {
-            feedbackDiv.textcontent ="Registration Successful";
+            feedbackDiv.textContent ="Registration Successful";
             feedbackDiv.style.color = '#28a745';
         } else {
-            feedbackDiv.innerHTML =MessageChannel.join('<br>');
+            feedbackDiv.innerHTML =messages.join('<br>');
             feedbackDiv.style.color = '#dc3545';
         }
     });
